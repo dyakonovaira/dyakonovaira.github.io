@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords"content="HTML5, семантическая верстка, теги, сайт, article, aside, header, nav, main, footer, section, details, figure, figcaption, summary, mark, time, address">
+	<title>Примеры семантических тегов HTML5</title>
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="img/logo.svg">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script async src="script/arrowup.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+		<img src="img/logo.svg" alt="Логотип сайта" />
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a class="current" href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="wrapper">
+		<div class="background-image" style="background-image: url(img/background.jpg);"></div>
+		<h1>Примеры</h1>
+		<h3>Использование семантических тегов в HTML5</h3>
+	</section>
+
+	<main>
+	<article>
+	<section class="links">
+
+		<h3 class="title">Семантические теги в HTML5</h3>
+		<nav class="links">
+			<a href="#codeitem_1" class="btnlink">&lt;header&gt;</a>
+			<a href="#codeitem_2" class="btnlink">&lt;nav&gt;</a>
+			<a href="#codeitem_3" class="btnlink">&lt;aside&gt;</a>
+			<a href="#codeitem_4" class="btnlink">&lt;section&gt;</a>
+			<a href="#codeitem_5" class="btnlink">&lt;main&gt;</a>
+			<a href="#codeitem_6" class="btnlink">&lt;footer&gt;</a>
+			<a href="#codeitem_7" class="btnlink">&lt;article&gt;</a>
+			<a href="#codeitem_8" class="btnlink">&lt;figure&gt;</a>
+			<a href="#codeitem_9" class="btnlink">&lt;figcaption&gt;</a>
+			<a href="#codeitem_10" class="btnlink">&lt;details&gt;</a>
+			<a href="#codeitem_11" class="btnlink">&lt;summary&gt;</a>
+			<a href="#codeitem_12" class="btnlink">&lt;mark&gt;</a>
+			<a href="#codeitem_13" class="btnlink">&lt;time&gt;</a>
+			<a href="#codeitem_14" class="btnlink">&lt;address&gt;</a>
+		</nav>
+	</section>
+
+	
+		<section class="examplecode">
+			<h2  class="examplecodeitem" id="codeitem_1"><img src="img/icon.svg" alt="" />Элемент &lt;header&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> шапка документа или секции</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;body&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;header&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h1&gt;</span><span>Hello
+					World!</span><span class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h3&gt;</span><span>Меня зовут
+					Дьяконова Ирина</span><span class="tagnamecolor">&lt;/h3&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;/header&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Это мой первый
+					сайт</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				<span class="tagnamecolor">&lt;/body&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/header.PNG" alt="" />
+			<a href="tags.html#item_1" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_2"><img src="img/icon.svg" alt="" />Элемент &lt;nav&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> основная навигация</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;nav&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;a&nbsp;href=</span><span>"index.html"</span><span
+					class="tagnamecolor">&gt;</span><span>Главная</span><span
+					class="tagnamecolor">&lt;/a&gt;</span><span>|</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span
+					class="tagnamecolor">&lt;a&nbsp;href=</span><span>"catalog.html"</span><span
+					class="tagnamecolor">&gt;</span><span>Каталог</span><span
+					class="tagnamecolor">&lt;/a&gt;</span><span>|</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;a&nbsp;href=</span><span>"about.html"</span><span
+					class="tagnamecolor">&gt;</span><span>O нас</span><span class="tagnamecolor">&lt;/a&gt;</span>
+				<span>|</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span
+					class="tagnamecolor">&lt;a&nbsp;href=</span><span>"contacts.html"</span><span
+					class="tagnamecolor">&gt;</span><span>Контакты</span><span class="tagnamecolor">&lt;/a&gt;</span>
+				<br>
+				<span class="tagnamecolor">&lt;/nav&gt;</span><br>
+			</div>
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/nav.PNG" alt="" />
+			<a href="tags.html#item_2" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_3"><img src="img/icon.svg" alt="" />Элемент &lt;aside&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> вспомогательный контент</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;body&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Я учусь в
+					Харьковском национальном университете радиоэлектроники уже три года.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;aside&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h4&gt;</span><span>ХНУРЭ</span><span
+					class="tagnamecolor">&lt;/h4&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>В университете
+					учится более 8 тысяч студентов.</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;/aside&gt;</span><br>
+				<span class="tagnamecolor">&lt;/body&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/aside.PNG" alt="" />
+			<a href="tags.html#item_3" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_4"><img src="img/icon.svg" alt="" />Элемент &lt;section&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> семантически обособленная секция</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;section&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h1&gt;</span><span>HTML</span><span
+					class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>HTML — стандартный
+					язык разметки гипертекстовых страниц в Интернете.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+				<span class="tagnamecolor">&lt;/section&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/section.PNG" alt="" />
+			<a href="tags.html#item_4" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_5"><img src="img/icon.svg" alt="" />Элемент &lt;main&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> главный контент страницы</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;main&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+					class="tagnamecolor">&lt;h1&gt;</span><span>Веб-браузеры</span><span
+					class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Google Chrome,
+					Firefox и Internet Explorer являются самыми популярными браузерами сегодня.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+				<P></P>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;article&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h1&gt;</span><span>Google
+					Chrome</span><span class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Google Chrome - это
+					бесплатный веб-браузер с открытым исходным кодом, разработанный Google, выпущенный в 2008
+					году.</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;/article&gt;</span><br>
+				<P></P>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;article&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h1&gt;</span><span>Internet
+					Explorer</span><span class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Internet Explorer -
+					бесплатный веб-браузер от Microsoft, выпущенный в 1995 году.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;/article&gt;</span><br>
+				<P></P>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;article&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h1&gt;</span><span>Mozilla
+					Firefox</span><span class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Firefox - это
+					бесплатный веб-браузер с открытым исходным кодом от Mozilla, выпущенный в 2004 году.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;/article&gt;</span><br>
+				<span class="tagnamecolor">&lt;/main&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/main.PNG" alt="" />
+			<a href="tags.html#item_5" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_6"><img src="img/icon.svg" alt="" />Элемент &lt;footer&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> подвал документа или секции</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;body&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;footer&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Автор сайта: Ирина
+					Дьяконова</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>Контактная
+					информация:</span><span class="tagnamecolor">&lt;a href="<u>mailto:
+						iryna.diakonova@nure.ua"&gt;</u></span><span> iryna.diakonova@nure.ua </span><span
+					class="tagnamecolor">&lt;/a&gt;&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;/footer&gt;</span><br>
+				<span class="tagnamecolor">&lt;/body&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/footer.PNG" alt="" />
+			<a href="tags.html#item_6" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_7"><img src="img/icon.svg" alt="" />Элемент &lt;article&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> статья или новость</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;article&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;h1&gt;</span><span>HTML</span><span
+					class="tagnamecolor">&lt;/h1&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>HTML — стандартный
+					язык разметки гипертекстовых страниц в Интернете.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+				<span class="tagnamecolor">&lt;/article&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/section.PNG" alt="" />
+			<a href="tags.html#item_7" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_8"><img src="img/icon.svg" alt="" />Элемент &lt;figure&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> автономный контент</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;figure&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;img src=</span><span>"nure.jpg"
+				</span><span class="tagnamecolor">alt=</span><span>Univercity"</span><span
+					class="tagnamecolor">width=</span><span>"350"</span> <span
+					class="tagnamecolor">height=</span><span>"250"</span><span class="tagnamecolor">&gt;</span><br>
+				<span class="tagnamecolor">&lt;/figure&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/figure.PNG" alt="" />
+			<a href="tags.html#item_8" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_9"><img src="img/icon.svg" alt="" />Элемент&lt;figcaption&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> подпись для &lt;/figure&gt;</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;figure&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;img src=</span><span>"nure.jpg"
+				</span><span class="tagnamecolor">alt=</span><span>Univercity"</span><span
+					class="tagnamecolor">width=</span><span>"350"</span> <span
+					class="tagnamecolor">height=</span><span>"250"</span><span class="tagnamecolor">&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;figcaption&gt;</span><span>Рисунок 1
+					- Харьковский национальный университет электроники</span><span
+					class="tagnamecolor">&lt;/figcaption&gt;</span><br>
+				<span class="tagnamecolor">&lt;/figure&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/figcaption.PNG" alt="" />
+			<a href="tags.html#item_9" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_10"><img src="img/icon.svg" alt="" />Элемент &lt;details&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> дополнительные сведения</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;details open=</span><span>"open"&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;summary&gt;</span><span>Если нажать на
+					стрелочку</span><span class="tagnamecolor">&lt;/summary&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span> - то будет
+					показана дополнительная информация</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span>По умолчанию
+					инофрмация отображается скрытой</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				<span class="tagnamecolor">&lt;/details&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/deteils.PNG" alt="" />
+			<a href="tags.html#item_10" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_11"><img src="img/icon.svg" alt="" />Элемент&lt;summary&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> видимая подпись к &lt;details&gt;</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;details&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;summary&gt;</span><span>Дополнительная информация</span><span class="tagnamecolor">&lt;/summary&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tagnamecolor">&lt;p&gt;</span><span> Какой-нибудь
+					текст, который нужно скрыть</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+				<span class="tagnamecolor">&lt;/details&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/summary.PNG" alt="" />
+			<a href="tags.html#item_11" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_12"><img src="img/icon.svg" alt="" />Элемент&lt;mark&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> выделенный текст</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;p&gt; &lt;mark&gt;</span><span>CSS</span><span
+					class="tagnamecolor">&lt;/mark&gt;</span><span>— специальный язык, который используется для описания
+					внешнего вида страниц.</span><span class="tagnamecolor">&lt;/p&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/mark.PNG" alt="" />
+			<a href="tags.html#item_12" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_13"><img src="img/icon.svg" alt="" />Элемент &lt;time&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> дата/время</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;p&gt;</span><span>Я хожу на пары к</span><span
+					class="tagnamecolor">&lt;time&gt;</span><span>07:45</span><span
+					class="tagnamecolor">&lt;/time&gt;</span><span>каждое утро.</span><span
+					class="tagnamecolor">&lt;/p&gt;</span><br>
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/time.PNG" alt="" />
+			<a href="tags.html#item_13" class="btn">Читать описание тега</a>
+		</section>
+
+		<section class="examplecode">
+			<h2 class="examplecodeitem" id="codeitem_14"><img src="img/icon.svg" alt="" />Элемент&lt;address&gt;</h2>
+			<p class="examplecodeitem"><b>Назначение:</b> контактная информация, информация об авторе</p>
+
+			<div class="item-code">
+				<span class="tagnamecolor">&lt;address&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span>Written by</span><span class="tagnamecolor">&lt;a href="<u>mailto:
+						iryna.diakonova@nure.ua"&gt;</u></span><span>Ira Dyakonova</span><span
+					class="tagnamecolor">&lt;/a&gt;&lt;br&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span>Visit us at:</span><span class="tagnamecolor">&lt;br&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span>namesite.com</span><span class="tagnamecolor">&lt;br&gt;</span><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<span>Kharkov, Ukraine</span><span class="tagnamecolor">&lt;br&gt;</span><br>
+				<span class="tagnamecolor">&lt;/address&gt;</span><br>
+
+			</div>
+
+			<p class="examplecodeitem"><b>Результат данного примера в окне браузера:</b></p>
+			<img class="imagebrowser" src="img/address.PNG" alt="" />
+			<a href="tags.html#item_14" class="btn">Читать описание тега</a>
+			<p></p>
+		</section>
+	</article>
+	</main>
+
+	<div id="topNubex"><img src="img/up.svg" alt="ButtonUp"></div>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+		<p class="atributation"><a href="https://ru.freepik.com/free-photos-vectors">Illustrations by @stories -
+				ru.freepik.com</a></p>
+	</footer>
+
+</body>
+
+</html>

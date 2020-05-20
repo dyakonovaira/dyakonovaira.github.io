@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords"content="HTML5, семантическая верстка, теги, сайт, семантика">
+	<title>Кратко о главном - Семантическая верстка в HTML5</title>
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="img/logo.svg">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script async src="script/arrowup.js"></script>
+
+
+</head>
+
+<body>
+
+	<header>
+		<img src="img/logo.svg" alt="Логотип сайта" />
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a class="current" href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="wrapper">
+		<div class="background-image" style="background-image: url(img/background.jpg);"></div>
+		<h1>Кратко о главном</h1>
+		<h3>Семантическая верстка в HTML5</h3>
+
+	</section>
+
+
+	<main>
+		<section class="semantic">
+			<h3 class="title">Что такое семантика?</h3>
+			<p>На протяжении всей жизни человек старается делать все согласно здравой логике. Если он видит рыжего кота,
+				он так и скажет: «Я вижу рыжего кота». Никто не будет вместо этого говорить о черном щенке, если его там
+				не будет. Проще говоря, семантика - это называть что-то своим именем. Существует даже целая наука,
+				которая это изучает.</p>
+			<p>Но подобное есть не только в лингвистике. В веб-разработке тоже присутствует понятие “семантической
+				верстки”. Далее рассмотрим подробнее этот вопрос.</p>
+		</section>
+
+
+		<section class="advantage">
+			<h3 class="title">Зачем нужна семантическая верстка?</h3>
+			<p>Семантические теги HTML5 позволяют доступно объяснить браузеру и другому разработчику предназначение той
+				или иной области посредством тега, описывая смысл и назначение элементов.</p>
+
+			<ul class="grid">
+				<li>
+					<img src="img/search.svg" alt="" />
+					<h4>Помощь поисковым роботам</h4>
+					<p>При корректной семантической верстке сайт лучше индексируется поискавиками. Таким образом
+						повышается поисковая оптимизация (SEO).</p>
+				</li>
+				<li>
+					<img src="img/upgrade.svg" alt="" />
+					<h4>Улучшение структуры контента</h4>
+					<p>Возможность представить код в более удобном виде. Веб-разработчикам гораздо легче писать и
+						изучать код, где логически выстроены элементы. Не нужно создавать много элементов &lt;div&gt;.
+					</p>
+				</li>
+				<li>
+					<img src="img/adaptation.svg" alt="" />
+					<h4>Адаптация для различных устройств</h4>
+					<p>Примером являются устройства, используемые слабовидящими людьми. Речевой браузер в таком случае
+						будет рассматривать семантику. </p>
+				</li>
+			</ul>
+		</section>
+
+
+		<section class="info">
+			<h3 class="title">Нужно помнить, что..</h3>
+			<ul class="grid">
+				<li>
+					<img id="iconleft" src="img/notebook.svg" alt="" />
+
+					<p>Сегодня все еще можно встретить множество страниц с таким HTML-кодом: <b>&lt;div id="nav"&gt;
+							&lt;div class="header"&gt; &lt;div id="footer"&gt;.</b> Где блочному элементу
+						<b>&lt;div&gt;</b> присваивается имя или класс. Таким способом обозначали навигацию шапки и
+						подвала сайта. </p>
+					<p>В HTML5 для тех же целей появляются новые семантические элементы: <strong>&lt;article&gt;,
+							&lt;aside&gt;, &lt;details&gt;, &lt;figcaption&gt;, &lt;figure&gt;, &lt;footer&gt;,
+							&lt;header&gt;, &lt;main&gt;, &lt;mark&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;summary&gt;,
+							&lt;time&gt;.</strong></p>
+					<img id="iconright" src="img/balance.svg" alt="" />
+					<p>Но к сожалению, на сегодняшний день SEO специалисты до сих пор не могут получить 100%
+						семантически валидной верстки. В основном правильно используют <strong>&lt;footer&gt;,
+							&lt;header&gt;, &lt;nav&gt;,</strong> реже или неправильно используют <strong>&lt;aside&gt;
+							&lt;main&gt; &lt;section&gt;.</strong> Остальные элементы используют редко или вообще не
+						используют.</p>
+					<p> Поэтому правильная верстка допускает содержание в себе как семантических тегов, так и блочных
+						элементов (например &lt;div&gt;). Нужно знать и понимать предназначение тегов для их правильного
+						использования.</p>
+				</li>
+			</ul>
+		</section>
+
+
+		<section class="semantictags">
+			<h3 class="title">Семантические теги</h3>
+			<p class="quote">Согласно спецификации HTML5 каждый элемент принадлежит к определенной категории: </p>
+			<ul class="quote" id="set">
+				<li><img src="img/icon.svg" alt="" />Мета содержимое</li>
+				<li><img src="img/icon.svg" alt="" />Потоковое содержимое</li>
+				<li><img src="img/icon.svg" alt="" />Секционное содержимое</li>
+				<li><img src="img/icon.svg" alt="" />Заголовочное содержимое</li>
+				<li><img src="img/icon.svg" alt="" />Текстовое содержимое</li>
+				<li><img src="img/icon.svg" alt="" />Встроенное содержимое</li>
+				<li><img src="img/icon.svg" alt="" />Интерактивное содержимое</li>
+			</ul>
+			<p class="quote">Каждый элемент относится к одной или к нескольким группам содержимого. </p>
+			<a href="tags.html" class="btn">Подробнее о тегах</a>
+		</section>
+	</main>
+
+	<div id="topNubex"><img src="img/up.svg" alt="ButtonUp"></div>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+		<p class="atributation"><a href="https://ru.freepik.com/free-photos-vectors">Illustrations by @stories -
+				ru.freepik.com</a></p>
+	</footer>
+
+</body>
+
+</html>

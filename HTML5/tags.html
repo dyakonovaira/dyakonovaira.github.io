@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords"content="HTML5, семантическая верстка, теги, сайт, article, aside, header, nav, main, footer, section, details, figure, figcaption, summary, mark, time, address">
+	<title>Семантические теги в HTML5</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="img/logo.svg">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script async src="script/arrowup.js"></script>
+
+</head>
+
+<body>
+
+	<header>
+		<img src="img/logo.svg" alt="Логотип сайта" />
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a class="current" href="tags.html">Теги</a></li>
+				<li><a href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="wrapper">
+		<div class="background-image" style="background-image: url(img/background.jpg);"></div>
+		<h1>Теги</h1>
+		<h3>Семантическая верстка в HTML5</h3>
+	</section>
+
+	<main>
+		<article>
+		<img id="boy" src="img/boy1.svg" alt="" />
+		<section class="links">
+
+			<h3 class="title">Семантические теги в HTML5</h3>
+			<nav class="links">
+				<a href="#item_1" class="btnlink">&lt;header&gt;</a>
+				<a href="#item_2" class="btnlink">&lt;nav&gt;</a>
+				<a href="#item_3" class="btnlink">&lt;aside&gt;</a>
+				<a href="#item_4" class="btnlink">&lt;section&gt;</a>
+				<a href="#item_5" class="btnlink">&lt;main&gt;</a>
+				<a href="#item_6" class="btnlink">&lt;footer&gt;</a>
+				<a href="#item_7" class="btnlink">&lt;article&gt;</a>
+				<a href="#item_8" class="btnlink">&lt;figure&gt;</a>
+				<a href="#item_9" class="btnlink">&lt;figcaption&gt;</a>
+				<a href="#item_10" class="btnlink">&lt;details&gt;</a>
+				<a href="#item_11" class="btnlink">&lt;summary&gt;</a>
+				<a href="#item_12" class="btnlink">&lt;mark&gt;</a>
+				<a href="#item_13" class="btnlink">&lt;time&gt;</a>
+				<a href="#item_14" class="btnlink">&lt;address&gt;</a>
+			</nav>
+		</section>
+
+		<section class="items">
+			<h3 class="title">Описание и назначение</h3>
+			<ul class="grid">
+				<li>
+					<h2 id="item_1">Элемент &lt;header&gt;</h2>
+					<p>Тег &lt;header&gt; относится к категории потоковое содержимое – описывает то, что находится
+						внутри тега. Представляет собой контейнер для вводного контента или набор навигационных ссылок.
+						В нем обычно содержится один или несколько элементов заголовка, логотип или иконка, меню. В
+						одном документе может находиться несколько элементов &lt;header&gt;.</p>
+					<p><b>Примечание:</b> Существуют ограничения. Тег &lt;header&gt; нельзя разместить внутри такого же
+						элемента &lt;header&gt; в подвале сайта &lt;footer&gt; или в теге для контактной информации
+						&lt;address&gt;</p>
+					<a href="examplestags.html#codeitem_1" class="btn">Смотреть пример</a>
+					<h2 id="item_2">Элемент &lt;nav&gt;</h2>
+					<p>Тег &lt;nav&gt; относится к категориям потоковое и секционное содержимое, определяет набор
+						навигационных ссылок. Может содержать в себе заголовки. В одном документе может несколько
+						элементов &lt;nav&gt;.</p>
+					<p><b>Примечание:</b> Не все ссылки html-документа должны быть внутри элемента &lt;nav&gt;. Он
+						предназначен для основного блока навигационных ссылок.</p>
+					<a href="examplestags.html#codeitem_2" class="btn">Смотреть пример</a>
+					<h2 id="item_3">Элемент &lt;aside&gt;</h2>
+					<p>Тег &lt;aside&gt; относится к категориям потоковое и секционное содержимое, определяет некоторый
+						контент помимо контента, в который он помещен. Является дополнительным не самостоятельным
+						разделом страницы, который по смыслу привязан к основному контенту. В одном документе может
+						несколько элементов &lt;aside&gt;. </p>
+					<p><b>Примечание:</b> элемент &lt;aside&gt; может использоваться для размещения боковой панели в
+						статье, как боковая панель для рекламы, фильтров и сортировок товаров или организации навигации.
+					</p>
+					<a href="examplestags.html#codeitem_3" class="btn">Смотреть пример</a>
+					<h2 id="item_4">Элемент &lt;section&gt;</h2>
+					<p>Тег &lt;section&gt; относится к категориям потоковое и секционное содержимое. Определяет разделы
+						в документе, содержит в себе тематически сгруппированный контент, как правило с заголовком.
+						Элементы &lt;section&gt; рекомендуется помещать в элементы &lt;article&gt; или &lt;main&gt;. В
+						тег &lt;section&gt; так же можно помещать другие элементы, например &lt;article&gt;. </p>
+					<p><b>Примечание:</b> Тег &lt;section&gt; стоит использовать, когда отделяется неравнозначный
+						контент.</p>
+					<a href="examplestags.html#codeitem_4" class="btn">Смотреть пример</a>
+					<h2 id="item_5">Элемент &lt;main&gt;</h2>
+					<p>Тег &lt;main&gt; относится к категории потоковое содержимое, определяет основное контент
+						страницы. Содержимое внутри элемента должно быть уникальным для документа. В нем нельзя
+						размещать контент, который повторяется, например навигационные ссылки, боковые панели, поисковые
+						формы.</p>
+					<p><b>Примечание:</b> Тег &lt;main&gt; Может использоваться не более одного раза в документе.
+						Элемент &lt;main&gt; не должен быть потомком элемента &lt;article&gt;, &lt;aside&gt;,
+						&lt;footer&gt;, &lt;header&gt; или &lt;nav&gt;.</p>
+					<a href="examplestags.html#codeitem_5" class="btn">Смотреть пример</a>
+					<h2 id="item_6">Элемент &lt;footer&gt;</h2>
+					<p>Тег &lt;footer&gt; относится к категории потоковое содержимое, определяет нижний колонтитул для
+						документа или раздела, так называемый «подвал» сайта. Элемент &lt;footer&gt; должен содержать
+						информацию о содержащим его элементе. Обычно в нем размещают контактную информацию, информацию
+						об авторстве и авторских правах, ссылки и многое друге. В одном документе может быть несколько
+						элементов &lt;footer&gt;.</p>
+					<p><b>Примечание:</b> Существуют ограничения. Тег &lt;footer &gt; нельзя разместить внутри такого же
+						элемента &lt;footer&gt; и &lt;header&gt;.</p>
+					<a href="examplestags.html#codeitem_6" class="btn">Смотреть пример</a>
+					<h2 id="item_7">Элемент &lt;article&gt;</h2>
+					<p>Тег &lt;article&gt; относится к категориям потоковое и секционное содержимое. Он определяет
+						независимый, автономный контент. Статья должна иметь смысл сама по себе, то есть контент должен
+						быть понятен, даже если отрываться от остальных частей страницы. Имеет смысл использовать для
+						однотипного контента, обычно используется для группировки записей и публикаций, вывода новостей,
+						размещения статьи или комментариев. В одном документе может быть несколько элементов
+						&lt;article&gt;</p>
+					<p><b>Примечание:</b> элемент &lt;article&gt; можно вкладывать в такой же тег. Но, в таком случае
+						нужно, чтобы дочерние элементы несли в себе контент, который семантически связан с родителем.
+					</p>
+					<a href="examplestags.html#codeitem_7" class="btn">Смотреть пример</a>
+					<h2 id="item_8">Элемент &lt;figure&gt;</h2>
+					<p>Тег &lt;figure&gt; относится к категории потоковое содержимое. Он определяет автономный контент,
+						например иллюстрации, диаграммы, фотографии, списки кодов и т. д. Для добавления заголовка для
+						элемента &lt;figure&gt; используется элемент &lt;figcaption&gt;.</p>
+					<p><b>Примечание:</b> тег &lt;figure&gt; имеет по умолчанию прописанные margin-отступы.</p>
+					<a href="examplestags.html#codeitem_8" class="btn">Смотреть пример</a>
+					<h2 id="item_9">Элемент &lt;figcaption&gt;</h2>
+					<p>Тег &lt;figcaption&gt; определяет заголовок для элемента &lt;figure&gt;, добавляя визуальное
+						пояснение к изображению. Элемент &lt;figcaption&gt; может быть помещен как первый или последний
+						дочерний элемент для элемента &lt;figure&gt;. В HTML5 изображение и пояснение к нему может быть
+						сгруппировано в элементе &lt;figure&gt;.</p>
+					<a href="examplestags.html#codeitem_9" class="btn">Смотреть пример</a>
+					<h2 id="item_10">Элемент &lt;details&gt;</h2>
+					<p>Тег &lt;details&gt; относится к категориям потоковое и интерактивное содержимое. Определяет
+						дополнительные детали, которые пользователь может просматривать или скрывать по требованию. Его
+						можно использовать для создания интерактивного виджета, который пользователь может открывать и
+						закрывать. По умолчанию содержимое тега не отображается, но при нажатии на маркер показывается.
+					</p>
+					<p><b>Примечание:</b> тег &lt;summary&gt; используется для указания видимого заголовка для
+						&lt;details&gt;. На заголовок можно кликнуть, чтобы просмотреть или скрыть детали.</p>
+					<a href="examplestags.html#codeitem_10" class="btn">Смотреть пример</a>
+					<h2 id="item_11">Элемент &lt;summary&gt;</h2>
+					<p>Тег &lt;summary&gt; определяет видимый заголовок для элемента &lt;details&gt;. </p>
+					<p><b>Примечание:</b> элемент &lt;summary&gt; должен быть первым дочерним элементом для
+						&lt;details&gt; элемента.</p>
+					<a href="examplestags.html#codeitem_11" class="btn">Смотреть пример</a>
+					<h2 id="item_12">Элемент &lt;mark&gt;</h2>
+					<p>Тег &lt;mark&gt; относится к категории потоковое и текстовое содержимое. Определяет помеченный
+						(маркированный) текст. Используется для выделения важной части текста или слов. По умолчанию
+						текст выделяется жёлтым цветом.</p>
+					<a href="examplestags.html#codeitem_12" class="btn">Смотреть пример</a>
+					<h2 id="item_13">Элемент &lt;time&gt;</h2>
+					<p>Тег &lt;time&gt; относится к категориям потоковое и текстовое содержимое. Он помечает текст как
+						дату, время или оба значения. Для тега доступен атрибут datetime, в качестве содержимого
+						которого указывается то, что будет видеть пользователь на экране своего компьютера. Его можно
+						применять для времени публикации статей на сайте или для считывания.</p>
+					<p><b>Примечание:</b> Чтобы дата могла считываться автоматически, она должна быть в формате ГГГГ-MM-ДД. Время, которое
+						также может указываться, задается в формате ЧЧ:MM с добавлением разделяющего префикса T (time)
+					</p>
+					<a href="examplestags.html#codeitem_13" class="btn">Смотреть пример</a>
+					<h2 id="item_14">Элемент &lt;address&gt;</h2>
+					<p>Тег &lt;address&gt; относится к категории потоковое содержимое. Определяет контактную информацию
+						для автора документа или статьи. Тег может применяться в любой части страницы . Так если элемент
+						&lt;address&gt; находится внутри элемента &lt;body>, он представляет контактную информацию для
+						документа, если находится внутри элемента &lt;article&gt; - он представляет контактную
+						информацию для данной статьи. Текст в элементе &lt;address&gt; обычно отображается курсивом.
+						Большинство браузеров добавляют разрыв строки до и после элемента.</p>
+					<p><b>Примечание:</b> тег &lt;address&gt; не должен использоваться для описания почтового адреса,
+						если только он не является частью контактной информации.</p>
+					<a href="examplestags.html#codeitem_14" class="btn">Смотреть пример</a>
+				</li>
+			</ul>
+		</section>
+		</article>
+		
+	</main>
+
+	<div id="topNubex"><img src="img/up.svg" alt="ButtonUp" /></div>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+
+		<p class="atributation"><a href="https://ru.freepik.com/free-photos-vectors">Illustrations by @stories -
+				ru.freepik.com</a></p>
+
+	</footer>
+
+</body>
+
+</html>

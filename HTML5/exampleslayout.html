@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords"content="HTML, HTML5, семантическая верстка, правильная верстка, сайт, верстка сайта, блочная верстка, div, article, aside, header, nav, main, footer, section">
+	<title>Примеры правильной семантической верстки</title>
+
+
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="img/logo.svg">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script async src="script/arrowup.js"></script>
+	
+
+</head>
+
+<body>
+
+	<header>
+		<img src="img/logo.svg" alt="Логотип сайта" />
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a class="current" href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="wrapper">
+		<div class="background-image" style="background-image: url(img/background.jpg);"></div>
+		<h1>Примеры</h1>
+		<h3>Правильная семантическая верстка</h3>
+	</section>
+
+	<main>
+		<article class="exampleslayout">
+			<h3 class="title">Чем отличается семантическая вёрстка от обычной?</h3>
+
+
+			<div class="imgbeforeafter">
+				<img src="img/html4.svg" alt="" />
+				<img src="img/html5.svg" alt="" />
+			</div>
+
+
+			<section class="blockandsemantic">
+				<h3>Раньше и сейчас</h3>
+
+				<p>До появления HTML 5, структура сайтов создавалась с помощью блочной верстки, где расположение
+					элементов веб-страницы определяется с помощью разметки. Приходилось использовать
+					блочный тег <b>&lt;div&gt;</b> и таблицы стилей CSS. Написание такого HTML-кода
+					определяет только внешний вид веб-страницы.</p>
+				<p>С появлением новой версии <b>HTML5</b>, появилось множество семантических элементов, которые прямо
+					отображают свое назначение и разделяют код на логические блоки. Использование их в соответствии с
+					предназначением предполагает создание логичной и последовательной структуры страницы. Благодаря
+					новым семантическим тегам расширяется и рационализируется html-разметка документов, их использование
+					может оказать влияние на индексацию сайта в поисковиках.
+				</p>
+			</section>
+
+			<section class="blockandsemantic">
+				<h3>Простой пример семантической верстки</h3>
+
+				<p>В данном примере довольно легко определить какую роль выполняет каждая часть страницы. Когда вы
+					начинаете использовать семантические теги HTML5, то лучше всего начать с простых —
+					<b>&lt;header&gt;, &lt;nav&gt;, &lt;main&gt;</b> и <b>&lt;footer&gt;.</b> Пусть ваше исполнение
+					будет довольно
+					простым, но правильным, чем
+					очень сложным и неправильным. Даже минимальное, но правильное использование таких
+					тегов повышает взаимодействие с поисковыми системами, в противном случае вы заработаете больше
+					проблем, чем решите. </p>
+				<img class="imagelayout" src="img/example1.svg" alt="" />
+
+			</section>
+
+			<section class="blockandsemantic">
+				<h3>Использование &lt;section&gt; и &lt;article&gt;</h3>
+
+				<p>Использование <b>&lt;section&gt;</b> и <b>&lt;article&gt;</b> является уже более сложным примером
+					семантической верстки. Тут
+					появляется иерархия
+					в главном контенте. Тег <b>&lt;article&gt;</b> охватывает и определяет основной контент внутри тега.
+					Внутри
+					<b>&lt;article&gt;</b> вложено несколько разделов <b>&lt;section&gt;</b>, которые являются подтемами
+					самой статьи.
+					Нужно
+					помнить, что <b>&lt;section&gt;</b> формирует часть чего-то, а <b>&lt;article&gt; </b>существуeт
+					сама по себе.
+				</p>
+				<img class="imagelayout" src="img/example2.svg" alt="" />
+			</section>
+
+			<section class="blockandsemantic">
+				<h3>Использование &lt;aside&gt;</h3>
+
+				<p>Так же в семантической верстке довольно часто используют тег
+					<b>&lt;aside&gt;</b>. В первом случае контент в этом теге связанный с основным контентом в
+					<b>&lt;article&gt;</b>.
+					В нем желательно размещать дополнительный контент. То есть статья <b>&lt;article&gt;</b> должна быть
+					понятна
+					и без секции <b>&lt;aside&gt;</b>.
+				</p>
+				<p> Во втором случае элемент <b>&lt;aside&gt;</b> косвенно связанный, то есть ему не обязательно
+					содержать дополнительную информацию для основного контента. Он может быть применен
+					для блоков под основным контентом и содержать в себе заголовок, текст, ссылки на
+					другие страницы, рекламу.
+				</p>
+				<div class="imgaside">
+					<img class="imagelayout" src="img/example3.svg" alt="" />
+					<img class="imagelayout" src="img/example4.svg" alt="" />
+				</div>
+			</section>
+		</article>
+	</main>
+
+	<div id="topNubex"><img src="img/up.svg" alt="ButtonUp"></div>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="teory.html">Теория</a></li>
+				<li><a href="tags.html">Теги</a></li>
+				<li><a href="examples.html">Примеры</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</nav>
+		<p class="atributation"><a href="https://ru.freepik.com/free-photos-vectors">Illustrations by @stories -
+				ru.freepik.com</a></p>
+	</footer>
+
+</body>
+
+</html>

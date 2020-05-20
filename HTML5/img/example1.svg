@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 650 500" style="enable-background:new 0 0 650 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1FB299;}
+	.st1{fill:#2FDDBB;}
+	.st2{fill:#41C4AB;}
+	.st3{fill:#F2F2F2;}
+	.st4{font-family:'Cocon-Regular';}
+	.st5{font-size:28px;}
+</style>
+<path class="st0" d="M625.2,88H24.8C17.2,88,11,81.8,11,74.2v-48c0-7.6,6.2-13.8,13.8-13.8h600.3c7.6,0,13.8,6.2,13.8,13.8v48
+	C639,81.8,632.8,88,625.2,88z"/>
+<path class="st1" d="M625.2,405H24.8c-7.6,0-13.8-6.2-13.8-13.8v-226c0-7.6,6.2-13.8,13.8-13.8h600.3c7.6,0,13.8,6.2,13.8,13.8v226
+	C639,398.8,632.8,405,625.2,405z"/>
+<path class="st2" d="M630,144H20c-4.9,0-9-4-9-9v-30.7c0-4.9,4-9,9-9h610c4.9,0,9,4,9,9V135C639,140,635,144,630,144z"/>
+<text transform="matrix(1 0 0 1 286.79 127.88)" class="st3 st4 st5">&lt;nav&gt;</text>
+<text transform="matrix(1 0 0 1 278.79 287.88)" class="st3 st4 st5">&lt;main&gt;</text>
+<path class="st0" d="M625.2,488H24.8c-7.6,0-13.8-6.2-13.8-13.8v-48c0-7.6,6.2-13.8,13.8-13.8h600.3c7.6,0,13.8,6.2,13.8,13.8v48
+	C639,481.8,632.8,488,625.2,488z"/>
+<text transform="matrix(1 0 0 1 266.79 459.88)" class="st3 st4 st5">&lt;footer&gt;</text>
+<text transform="matrix(1 0 0 1 263.7902 59.8801)" class="st3 st4 st5">&lt;header&gt;</text>
+</svg>
